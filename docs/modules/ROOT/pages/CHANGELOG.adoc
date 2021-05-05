@@ -1,0 +1,116 @@
+= Changelog
+
+:sectnums!:
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v1.2.0...v1.2.1++[1.2.1^] (2020-12-16)
+
+=== Continuous Integration
+
+* *gitlab-ci:* use GitLab CI as Travis CI replacement
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/73ad103be423ee2c0014764bf5bb53f0542e4a59[73ad103^])
+* *pre-commit:* add to formula [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/eb1db4c44ff558fbb1ae0775862362b250068f22[eb1db4c^])
+* *pre-commit:* enable/disable `rstcheck` as relevant [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/07ca3bab316ede9a38ed8af23cdc4127ef9de5e7[07ca3ba^])
+* *pre-commit:* finalise `rstcheck` configuration [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/9af63bf9f7caf280f366e147028b5e44aba01ea0[9af63bf^])
+
+=== Documentation
+
+* *readme:* fix `rstcheck` violation [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/4dc41a115c59c93e264eaaf14497a556a6f18a89[4dc41a1^]),
+closes
+https://github.com//travis-ci.org/github/myii/jetbrains-clion-formula/builds/731606938/issues/L259[/travis-ci.org/github/myii/jetbrains-clion-formula/builds/731606938#L259^]
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v1.1.0...v1.2.0++[1.2.0^] (2020-09-20)
+
+=== Features
+
+* *clean:* add windows support
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/5163f9462767b112b4e39598846f7843d40bcff6[5163f94^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v1.0.2...v1.1.0++[1.1.0^] (2020-09-20)
+
+=== Features
+
+* *windows:* basic windows support
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/97bf061463b16937a8a8e932967cbd05cd0a2f72[97bf061^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v1.0.1...v1.0.2++[1.0.2^] (2020-07-28)
+
+=== Bug Fixes
+
+* *cmd.run:* wrap url in quotes (zsh)
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/54953f5e0ac36b34d3c106c2b744bb375c60275b[54953f5^])
+* *macos:* do not create shortcut file
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/3e0aed7e02e2930761bd2249543e460dad3f3721[3e0aed7^])
+* *macos:* do not create shortcut file
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/76a89e37fcd1c59387d6444aa39ec5caa080be86[76a89e3^])
+* *macos:* do not create shortcut file
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/167b8a5dcb11e70ad2cfce17cd591cefa28a935a[167b8a5^])
+
+=== Code Refactoring
+
+* *jetbrains:* align all jetbrains formulas
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/2cf6cef50cbe9168413fb743317f7d99527241ff[2cf6cef^])
+
+=== Continuous Integration
+
+* *kitchen:* use `saltimages` Docker Hub where available [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/f3b7cee600d39ca26a0506fc57497aefea553acd[f3b7cee^])
+
+=== Documentation
+
+* *readme:* minor update
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/2e21e9831e2e702fb6f03e7abf86801e431fd299[2e21e98^])
+
+=== Styles
+
+* *libtofs.jinja:* use Black-inspired Jinja formatting [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/d39c298f9cc72cea686f60e2cf6ad42ab639e37e[d39c298^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v1.0.0...v1.0.1++[1.0.1^] (2020-06-15)
+
+=== Bug Fixes
+
+* *edition:* better edition jinja code
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/3a6f3bac8f0027eea350a1fc04776aedad242674[3a6f3ba^])
+
+=== Documentation
+
+* *readme:* updated formatting
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/a352da9407d9f2971f1b0417fd4f909201e7254f[a352da9^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-clion-formula/compare/v0.1.0...v1.0.0++[1.0.0^] (2020-06-01)
+
+=== Bug Fixes
+
+* *id:* rename conflicting id
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/ac29163a9bba804679ea82ebaa6bbe74180a1b18[ac29163^])
+
+=== Continuous Integration
+
+* *kitchen+travis:* use latest pre-salted images
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/400ad2b84c7d6222791954312dd164a573e94c41[400ad2b^])
+
+=== Documentation
+
+* *readme:* add depth one
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/2e1cec257f99791c5e8242c42c2767b247325c53[2e1cec2^])
+* *readme:* fix Travis hyperlinks
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/9c8acce8d52861bbd699821c2dbb35c25873180e[9c8acce^])
+
+=== Features
+
+* *formula:* align to template-formula; add ci
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/6bed46d3061d7f82ee870d22edc169afe675be3e[6bed46d^])
+* *formula:* align to template-formula; add ci
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/d16bd3a9925c1a87ad5b760bef62ed013c90d1c8[d16bd3a^])
+* *semantic-release:* standardise for this formula
+(https://github.com/saltstack-formulas/jetbrains-clion-formula/commit/81c583fcd179d575b694746b5743c5f0a9991dd8[81c583f^])
+
+=== BREAKING CHANGES
+
+* *formula:* Major refactor of formula to bring it in alignment with the
+template-formula. As with all substantial changes, please ensure your
+existing configurations work in the ways you expect from this formula.
